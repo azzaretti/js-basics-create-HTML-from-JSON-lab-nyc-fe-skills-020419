@@ -19,6 +19,7 @@ function onTitanic(){
   let genrediv = document.getElementById('genre')
   titlediv.innerHTML = titanicTitle
   directordiv.innerHTML = titanicInfo.director
+  genrediv.innerHTML = titanicInfo.genre
 }
 
 
