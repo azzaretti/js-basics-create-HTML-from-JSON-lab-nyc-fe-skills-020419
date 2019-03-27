@@ -20,7 +20,7 @@ function onTitanic(){
   let ratingdiv = document.getElementById('filmRating')
   let moviePic = document.getElementById('poster')
   let movieDes = document.getElementById('description')
-  let
+  let score = document.getElementById('')
   titlediv.innerHTML = titanicTitle
   directordiv.innerHTML = titanicInfo.director
   genrediv.innerHTML = titanicInfo.genre
