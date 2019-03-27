@@ -14,8 +14,8 @@ terminatorButton.addEventListener('click', ()=> console.log('hasta la vista'))
 function onTitanic(){
   let titanicInfo = movies.Titanic
   let title = titanicInfo.title
-  document.
-  
+  let titlediv = document.getElementById('title')
+  titlediv.innerHTML = title
 }
 
 
