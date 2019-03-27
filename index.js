@@ -21,7 +21,7 @@ function onTitanic(){
   titlediv.innerHTML = titanicTitle
   directordiv.innerHTML = titanicInfo.director
   genrediv.innerHTML = titanicInfo.genre
-  ratingfiv.innerHTML = titanicInfo.filmRating
+  ratingdiv.innerHTML = titanicInfo.filmRating
 }
 
 
