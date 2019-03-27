@@ -40,7 +40,7 @@ function onTitanic(){
 
   let reviewString = ''
   for (let opinion of titanicInfo.cast) {
-    reviewString += '<li' + 
+    reviewString += '<li' + opinion.username
   }
 
 
