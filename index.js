@@ -29,7 +29,7 @@ function onTitanic(){
   moviePic.src = titanicInfo.poster
   movieDes.innerHTML = titanicInfo.description
   score.innerHTML = titanicInfo.audienceScore
-  cast.innerHTML = titanicInfo.
+  cast.innerHTML = titanicInfo.cast
 }
 
 
