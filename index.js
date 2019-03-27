@@ -6,7 +6,9 @@ document.addEventListener("DOMContentLoaded", (e) => {
 
 const titanicButton = document.getElementById('Titanic')
 const terminatorButton = document.getElementById('Terminator 2')
+
 titanicButton.addEventListener('click', ()=> console.log('titanic')) 
+terminatorButton.addEventListener('click', ()=> console.log('hasta la vista'))
 
 //2. Get info for that movie
 //3. Replace the info on the page with the info for that movie.
