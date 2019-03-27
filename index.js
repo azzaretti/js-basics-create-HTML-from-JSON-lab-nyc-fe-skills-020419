@@ -32,7 +32,7 @@ function onTitanic(){
   
   cast.innerHTML = titanicInfo.cast.role
   
-  for ()
+  for (cast = 0)
   
   
 }
