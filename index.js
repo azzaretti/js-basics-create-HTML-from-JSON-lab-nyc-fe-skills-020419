@@ -18,7 +18,7 @@ function onTitanic(){
   let directordiv = document.getElementById('director')
   let genrediv = document.getElementById('genre')
   let ratingdiv = document.getElementById('filmRating')
-  let moviePic = document.getElementById('')
+  let moviePic = document.getElementById('poster')
   titlediv.innerHTML = titanicTitle
   directordiv.innerHTML = titanicInfo.director
   genrediv.innerHTML = titanicInfo.genre
