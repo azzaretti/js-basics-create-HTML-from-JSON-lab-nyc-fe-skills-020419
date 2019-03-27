@@ -31,7 +31,7 @@ function onTitanic(){
   score.innerHTML = titanicInfo.audienceScore
   
   for ( let castMember of titanicInfo.cast) {
-    movieCast.innerHTML = "<li>" + castMember.role + </li> + <br> + <li> + castMember.
+    movieCast.innerHTML = '<li>' + castMember.role + '</li>' + '<br>' + '<li>' + castMember.actor + '</li>'
   }
   
   
