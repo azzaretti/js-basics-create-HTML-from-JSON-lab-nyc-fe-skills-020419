@@ -4,7 +4,8 @@ document.addEventListener("DOMContentLoaded", (e) => {
   
 //1. Find out which button they click
 
-let button = document.getElementById('Titanic')
+const titanicButton = document.getElementById('Titanic')
+titanicButton.addEventListener('click', ()=>{}) {
 
 //2. Get info for that movie
 //3. Replace the info on the page with the info for that movie.
