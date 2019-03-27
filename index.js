@@ -23,6 +23,7 @@ function onTitanic(){
   directordiv.innerHTML = titanicInfo.director
   genrediv.innerHTML = titanicInfo.genre
   ratingdiv.innerHTML = titanicInfo.filmRating
+  moviePic.src = titanicInfo.poster
 }
 
 
