@@ -15,6 +15,7 @@ function onTitanic(){
   let titanicInfo = movies.Titanic
   let titanicTitle = titanicInfo.title
   let titlediv = document.getElementById('title')
+  let directordiv = document.getElementById('director')
   titlediv.innerHTML = titanicTitle
 }
 
