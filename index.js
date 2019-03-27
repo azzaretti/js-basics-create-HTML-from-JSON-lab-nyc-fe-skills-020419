@@ -22,6 +22,7 @@ function onTitanic(){
   let movieDes = document.getElementById('description')
   let score = document.getElementById('audienceScore')
   let movieCast = document.getElementById('cast')
+  let reviews = document.getElementById('reviews')
   titlediv.innerHTML = titanicTitle
   directordiv.innerHTML = titanicInfo.director
   genrediv.innerHTML = titanicInfo.genre
@@ -30,14 +31,17 @@ function onTitanic(){
   movieDes.innerHTML = titanicInfo.description
   score.innerHTML = titanicInfo.audienceScore
   
-  let startingString = ''
-  for ( let castMember of titanicInfo.cast) {
+  let castString = ''
+  for (let castMember of titanicInfo.cast) {
     startingString += '<li>' + castMember.role + ' : ' + castMember.actor + '</li>'
   }
-  
-  movieCast.innerHTML = startingString
-  
+  movieCast.innerHTML = castString
 }
+
+  let reviewString = ''
+  for (let opinion of titanicInfo.cast) {
+    reviewString += '<li' + 
+  }
 
 
 
