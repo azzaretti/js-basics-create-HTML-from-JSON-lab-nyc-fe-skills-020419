@@ -21,6 +21,7 @@ function onTitanic(){
   let moviePic = document.getElementById('poster')
   let movieDes = document.getElementById('description')
   let score = document.getElementById('audienceScore')
+  let cast = document.getElementById('cast')
   titlediv.innerHTML = titanicTitle
   directordiv.innerHTML = titanicInfo.director
   genrediv.innerHTML = titanicInfo.genre
@@ -28,6 +29,7 @@ function onTitanic(){
   moviePic.src = titanicInfo.poster
   movieDes.innerHTML = titanicInfo.description
   score.innerHTML = titanicInfo.audienceScore
+  cast.innerHTML = titanicInfo.
 }
 
 
