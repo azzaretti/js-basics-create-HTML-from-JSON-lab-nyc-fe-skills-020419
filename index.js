@@ -7,7 +7,11 @@ document.addEventListener("DOMContentLoaded", (e) => {
 const titanicButton = document.getElementById('Titanic')
 const terminatorButton = document.getElementById('Terminator 2')
 
-titanicButton.addEventListener('click', ()=> console.log('titanic')) 
+titanicButton.addEventListener('click', ()=> console.log(movies)) 
+
+
+
+
 terminatorButton.addEventListener('click', ()=> console.log('hasta la vista'))
 
 //2. Get info for that movie
