@@ -1,4 +1,4 @@
-document.addEventListener("DOMContentLoaded", (e) => {
+// document.addEventListener("DOMContentLoaded", (e) => {
   // invoking a function here will make sure it happens on page load
   // your code here
   
@@ -55,4 +55,4 @@ titanicButton.addEventListener('click', () => onMovieChange('Titanic'))
 //3. Replace the info on the page with the info for that movie.
   
   
-});
+// });
