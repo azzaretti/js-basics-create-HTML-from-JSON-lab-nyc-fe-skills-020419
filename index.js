@@ -14,7 +14,7 @@ terminatorButton.addEventListener('click', onMovieChange('Terminator 2') )
 function onMovieChange(movie){
   
   
-  let titanicInfo = movies.movie
+  let titanicInfo = movies[movie]
   let titanicTitle = titanicInfo.title
   let titlediv = document.getElementById('title')
   let directordiv = document.getElementById('director')
