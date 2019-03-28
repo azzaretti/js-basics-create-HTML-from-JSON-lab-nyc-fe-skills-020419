@@ -55,4 +55,4 @@ titanicButton.addEventListener('click', onMovieChange('Titanic'))
 //3. Replace the info on the page with the info for that movie.
   
   
-});
+};
