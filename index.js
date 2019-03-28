@@ -10,7 +10,6 @@ const terminatorButton = document.getElementById('Terminator 2')
 
 function onMovieChange(movie){
   
-  
   let titanicInfo = movies[movie]
   let titanicTitle = titanicInfo.title
   let titlediv = document.getElementById('title')
