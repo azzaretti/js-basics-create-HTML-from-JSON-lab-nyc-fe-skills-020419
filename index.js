@@ -45,7 +45,7 @@ function onMovieChange(movie){
 terminatorButton.addEventListener('click',() => onMovieChange('Terminator 2'))
 titanicButton.addEventListener('click', () => onMovieChange('Titanic')) 
 
-
+onMovieChange('Titanic')
 
   
 
