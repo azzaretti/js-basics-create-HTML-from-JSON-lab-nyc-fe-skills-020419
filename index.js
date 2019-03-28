@@ -7,12 +7,14 @@ document.addEventListener("DOMContentLoaded", (e) => {
 const titanicButton = document.getElementById('Titanic')
 const terminatorButton = document.getElementById('Terminator 2')
 
-titanicButton.addEventListener('click', onTitanic) 
+titanicButton.addEventListener('click', onMovieChange('Titanic')) 
 
-terminatorButton.addEventListener('click', ()=> console.log('hasta la vista'))
+terminatorButton.addEventListener('click', onMovieChange('Terminator 2') )
 
-function onTitanic(){
-  let titanicInfo = movies.Titanic
+function onMovieChange(movie){
+  
+  
+  let titanicInfo = movies.movie
   let titanicTitle = titanicInfo.title
   let titlediv = document.getElementById('title')
   let directordiv = document.getElementById('director')
@@ -43,6 +45,8 @@ function onTitanic(){
   }
   reviews.innerHTML = reviewString
 }
+
+on
 
   
 
