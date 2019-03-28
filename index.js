@@ -41,10 +41,10 @@ function onMovieChange(movie){
   }
   reviews.innerHTML = reviewString
 }
-
+terminatorButton.addEventListener('click', onMovieChange('Terminator 2'))
 titanicButton.addEventListener('click', onMovieChange('Titanic')) 
 
-terminatorButton.addEventListener('click', onMovieChange('Terminator 2'))
+
 
   
 
