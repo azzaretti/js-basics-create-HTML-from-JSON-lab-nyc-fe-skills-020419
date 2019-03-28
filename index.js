@@ -39,7 +39,7 @@ function onTitanic(){
   
   let reviewString = ''
   for (let opinion of titanicInfo.reviews) {
-    reviewString += '<li' + opinion.username + ' : ' + opinion.content + '</li>'
+    reviewString += '<li>' + opinion.username + ' : ' + opinion.content + '</li>'
   }
   reviews.innerHTML = reviewString
 }
