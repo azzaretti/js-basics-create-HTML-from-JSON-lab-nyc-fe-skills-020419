@@ -38,7 +38,7 @@ function onTitanic(){
   movieCast.innerHTML = castString
   
   let reviewString = ''
-  for (let opinion of titanicInfo.cast) {
+  for (let opinion of titanicInfo.) {
     reviewString += '<li' + opinion.username + ' : ' + opinion.content + '</li>'
   reviews.innerHTML = reviewString
   }
