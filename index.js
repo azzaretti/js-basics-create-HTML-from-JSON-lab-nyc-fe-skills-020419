@@ -7,9 +7,6 @@ document.addEventListener("DOMContentLoaded", (e) => {
 const titanicButton = document.getElementById('Titanic')
 const terminatorButton = document.getElementById('Terminator 2')
 
-titanicButton.addEventListener('click', onMovieChange('Titanic')) 
-
-terminatorButton.addEventListener('click', onMovieChange('Terminator 2') )
 
 function onMovieChange(movie){
   
@@ -46,7 +43,9 @@ function onMovieChange(movie){
   reviews.innerHTML = reviewString
 }
 
-on
+titanicButton.addEventListener('click', onMovieChange('Titanic')) 
+
+terminatorButton.addEventListener('click', onMovieChange('Terminator 2') )
 
   
 
