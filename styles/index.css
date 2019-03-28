@@ -42,6 +42,10 @@ li {
   font-size: 1.3em;
 }
 
+#audienceScore {
+  font-size: 3em;
+}
+
 #title {
   font-size: 250%;
 }
