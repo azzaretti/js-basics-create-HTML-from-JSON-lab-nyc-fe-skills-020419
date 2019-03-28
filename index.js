@@ -33,7 +33,7 @@ function onTitanic(){
   
   let castString = ''
   for (let castMember of titanicInfo.cast) {
-    startingString += '<li>' + castMember.role + ' : ' + castMember.actor + '</li>'
+    castString += '<li>' + castMember.role + ' : ' + castMember.actor + '</li>'
   }
   movieCast.innerHTML = castString
   
