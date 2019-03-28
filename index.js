@@ -36,12 +36,15 @@ function onTitanic(){
     startingString += '<li>' + castMember.role + ' : ' + castMember.actor + '</li>'
   }
   movieCast.innerHTML = castString
-}
-
+  
   let reviewString = ''
   for (let opinion of titanicInfo.cast) {
-    reviewString += '<li' + opinion.username
+    reviewString += '<li' + opinion.username + ' : ' + opinion.content + '</li>'
+  reviews.innerHTML = reviewString
   }
+}
+
+  
 
 
 
