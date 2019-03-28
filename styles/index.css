@@ -38,6 +38,10 @@ li {
   font-size: 1.5em;
 }
 
+#description {
+  font-size: 2em;
+}
+
 #title {
   font-size: 250%;
 }
